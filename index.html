@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lee's Hair Oasis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="logo">Lee’s Hair Oasis</div>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="#contact" class="btn-nav">Book Now</a>
+    </nav>
+</header>
+
+<section class="hero reveal">
+    <div class="hero-content">
+        <h1>Luxury Wig Care & Styling</h1>
+        <p>Premium treatment and styling designed to restore beauty and confidence.</p>
+        <a href="services.html" class="btn-primary">View Services</a>
+    </div>
+</section>
+
+<section class="section reveal">
+    <h2>Why Choose Us</h2>
+    <div class="features">
+        <div>
+            <h3>Professional Care</h3>
+            <p>Handled with expertise and attention to detail.</p>
+        </div>
+        <div>
+            <h3>Quality Products</h3>
+            <p>We use trusted products for long-lasting results.</p>
+        </div>
+        <div>
+            <h3>Affordable Pricing</h3>
+            <p>Luxury service without luxury prices.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="contact" class="booking reveal">
+    <h2>Book Your Appointment</h2>
+    <p>Ready for a refresh? Contact us today.</p>
+   
+    <form class="booking-form">
+    <input type="text" id="name" placeholder="Full Name" required>
+    
+    <select id="service" required>
+        <option value="">Select Service</option>
+        <option>Wig Treatment</option>
+        <option>Wig Lines</option>
+        <option>Wig Wash & Styling</option>
+    </select>
+
+    <input type="date"  id="date" required>
+    <input type="time" id="time" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <button type="submit" class="btn-primary">Book Appointment</button>
+        </form>
+</section>
+
+<footer>
+    <p>© 2026 Lee’s Hair Oasis | Designed by MHWebsites</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
